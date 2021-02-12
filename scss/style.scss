@@ -1,0 +1,18 @@
+$background-color: #bcbcbc;
+$font-color: #000;
+$border-color: #fff;
+$font-size: 124px;
+$line-height-size: $font-size * 1.5;
+
+body {
+  background-color: $background-color;
+  border: 3px solid $border-color;
+  color: $font-color;
+  font-size: $font-size;
+  line-height: $line-height-size;
+} 
+
+a {
+  transition: width 329ms ease;
+  // testar funcionamento do autoprefixer
+} 
