@@ -1,0 +1,42 @@
+@import
+    "cores";
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: $bg-rodape;
+
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.rodape {
+
+    &__social {
+        display: flex;
+    }
+
+    &__midia {
+        display: block;
+
+        width: 42px;
+        height: 42px;
+
+        margin: 2rem 1rem;
+    }
+
+    &__navegacao {
+        color: $branco;
+        text-align: center;
+        line-height: 3;
+    }
+
+
+    &__link {
+        display: inline-block;
+
+        margin: 0 .5rem .7rem;
+    }
+}
