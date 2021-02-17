@@ -1,5 +1,8 @@
+@import
+    "_cores";
+
 .planos {
-    background-color: var(--cinza-claro);
+    background-color: $cinza-claro;
     
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -8,10 +11,10 @@
 .planos{
 
     &__titulo {
-        color: var(--cinza-escuro);
+        color: $cinza-escuro;
         font-weight: 700;
         font-size: 1.5rem;
-        font-family: var(--montserrat);
+        font-family: "Montserrat";
         text-transform: uppercase;
         text-align: center;
     
@@ -30,7 +33,7 @@
     display: flex;
     flex-direction: column;
 
-    background-color: var(--branco);
+    background-color: $branco;
 
     width: 100%;
     max-width: 300px;
@@ -53,7 +56,7 @@
 
         margin-bottom: .5rem;
 
-        border-bottom: 1px solid var(--azul-claro);
+        border-bottom: 1px solid $azul-claro;
     }
 
     &__conteudo {
@@ -70,7 +73,7 @@
     }
 
     &__texto {
-        color: var(--fonte-cinza);
+        color: $fonte-cinza;
         line-height: 28px;
     }
 
@@ -89,26 +92,26 @@
     }
 
     &--start {
-        color: var(--planos-cartao-start);
+        color: $planos-cartao-start;
     }
 
     &--ultra {
-        color: var(--planos-cartao-ultra);
+        color: $planos-cartao-ultra; 
     }
 
     &--mega {
-        color: var(--planos-cartao-mega);
+        color: $planos-cartao-mega;
     }
 
     &__botao--start {
-        border-color: var(--planos-cartao-start);
+        border-color: $planos-cartao-start;
     }
 
     &__botao--ultra {
-        border-color: var(--planos-cartao-ultra);
+        border-color: $planos-cartao-ultra;
     }
 
     &__botao--mega {
-        border-color: var(--planos-cartao-mega);
+        border-color: $planos-cartao-mega;
     }
 }
