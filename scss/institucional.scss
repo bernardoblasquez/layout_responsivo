@@ -34,6 +34,10 @@
         line-height: normal;
 
         margin-bottom: 2rem;
+
+        @media screen and (min-width:1024px){
+            margin-bottom: 0;
+        }
     }
 
     &__contato {
@@ -51,9 +55,35 @@
         color: $fonte-link;
         text-decoration: underline;
         display: block;
+
+        @media screen and (min-width:768px){
+            display: inline-block;
+        }
+
+        @media screen and (min-width:1024px){
+            display: block;
+        }
     }
 
     &__video {
         width: 100vw;
+
+        @media screen and (min-width:768px){
+            width: 100%;
+        }
+
+        @media screen and (min-width:1024px){
+            align-self: flex-end; 
+            width: 375px;
+        }
+    }
+    
+    &__conteudo{
+        @media screen and (min-width:1024px){
+            width: 100%; 
+            display: flex; 
+            justify-content: space-around; 
+            text-align: left;
+        }
     }
 }
